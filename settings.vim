@@ -12,6 +12,7 @@ set incsearch
 set modeline
 set laststatus=2
 set softtabstop=4
+set directory=~/.vim/swap/
 
 if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
     autocmd ColorScheme * so ~/.vim/rmbg.vim
