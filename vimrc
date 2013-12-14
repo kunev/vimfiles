@@ -7,5 +7,6 @@ source ~/.vim/mappings.vim
 "autocmd VimEnter * call StartUpNERDTree()
 
 let g:ackhighlight=1
+let g:ackprg = 'ag --nogroup --nocolor --column'
 let g:airline_powerline_fonts = 1
 let g:bufferline_fname_mod = ':.'
