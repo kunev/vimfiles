@@ -29,7 +29,6 @@
   "jsbeautify": "https://github.com/vim-scripts/vim-jsbeautify.git",
   "json": "https://github.com/leshill/vim-json.git",
   "localvimrc": "git://github.com/embear/vim-localvimrc.git",
-  "markdown": "https://github.com/tpope/vim-markdown.git",
   "misc": "https://github.com/xolox/vim-misc",
   "multichange": "git://github.com/AndrewRadev/multichange.vim.git",
   "mustache": "git://github.com/juvenn/mustache.vim.git",
