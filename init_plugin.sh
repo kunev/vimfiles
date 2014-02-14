@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/bin/sh
 
 url=$1
 directory=$2

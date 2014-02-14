@@ -73,3 +73,6 @@ nnoremap <leader>tl :set list!<cr>
 nnoremap <leader>gb :Gblame<cr>
 
 nnoremap <leader>m :Multichange<cr>
+
+nnoremap H :SidewaysLeft<cr>
+nnoremap L :SidewaysRight<cr>
