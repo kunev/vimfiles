@@ -131,4 +131,9 @@ snippet urlizetrunc
 	urlizetrunc:${1}
 snippet wordwrap
 	wordwrap:${1}
-
+snippet %text
+	{% text %}{
+		"id": "${1}",
+		"label": "${2}",
+		"validators": [${3}]
+	}{% endtext %}
