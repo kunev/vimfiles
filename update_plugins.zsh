@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 for dir in bundle/*; do
     branch=$(git symbolic-ref HEAD)
