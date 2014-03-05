@@ -43,6 +43,8 @@ let g:syntastic_style_warning_symbol='S!'
 let g:bufferline_active_buffer_left='▶ '
 let g:bufferline_modified=' ⨳'
 
+let g:bl_no_mappings=1
+
 set listchars=tab:▶-,trail:•
 hi SpecialKey ctermbg=none
 
