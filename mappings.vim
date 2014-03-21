@@ -36,7 +36,7 @@ nnoremap em :vsp ~/.vim/mappings.vim<cr>
 nnoremap sv :so $MYVIMRC<cr>
 
 "Swap normal and relative line numbers
-nnoremap <leader><space> :call ChangeLineNumberStyle()<cr>
+nnoremap <leader><space> :set relativenumber!<cr>
 
 "Easier movements to start/end of line
 nnoremap <leader>h ^
