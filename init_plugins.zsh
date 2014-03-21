@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-source ./plugin_list
+source ./plugins.zsh
 
 for plugin in ${(k)plugins}
 do
