@@ -24,7 +24,7 @@ nnoremap J 5j
 nnoremap K 5k
 
 "Toggle taglist with <leader>t
-nnoremap <leader>t :TlistToggle<cr>
+nnoremap <leader>t :TagbarToggle<cr>
 
 "Stop highlighting the last search
 nnoremap <c-h> :nohlsearch<cr>
