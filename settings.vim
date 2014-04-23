@@ -45,7 +45,7 @@ let g:bufferline_modified=' ⨳'
 
 let g:bl_no_mappings=1
 
-set listchars=tab:▶-,trail:•
+set listchars=tab:╾╴,trail:•
 hi SpecialKey ctermbg=none
 
 set fillchars=vert:∥,fold:≣
