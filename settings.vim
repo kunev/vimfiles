@@ -45,6 +45,9 @@ let g:bufferline_modified=' ⨳'
 
 let g:bl_no_mappings=1
 
+let g:airline#extensions#tagbar#enabled=1
+let g:airline#extensions#tagbar#flags='f'
+
 set listchars=tab:╾╴,trail:•
 hi SpecialKey ctermbg=none
 
