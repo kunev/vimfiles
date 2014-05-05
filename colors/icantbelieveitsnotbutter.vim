@@ -3,14 +3,14 @@ let g:colors_name = "icantbelieveitsnotbutter"
 
 hi Normal                  ctermfg=15
 hi Boolean                 ctermfg=9
-hi Comment                 ctermfg=0        ctermbg=none    cterm=none
+hi Comment                 ctermfg=249        ctermbg=none    cterm=none
 hi Conditional             ctermfg=5
 hi Constant                ctermfg=1
 hi Cursor                  ctermfg=none     ctermbg=1       cterm=none
 hi Debug                   ctermfg=9
 hi Define                  ctermfg=5
 hi Delimiter               ctermfg=13       ctermbg=none
-hi DiffLine                ctermfg=5 
+hi DiffLine                ctermfg=5
 hi DiffOldLine             ctermfg=14
 hi DiffOldFile             ctermfg=0
 hi DiffNewFile             ctermfg=15
@@ -36,7 +36,7 @@ hi Macro                   ctermfg=1
 hi MatchParen              ctermfg=13       ctermbg=0    cterm=bold
 hi ModeMsg                 ctermfg=0
 hi MoreMsg                 ctermfg=2
-hi NonText                 ctermfg=0        ctermbg=none 
+hi NonText                 ctermfg=0        ctermbg=none
 hi Number                  ctermfg=9
 hi Operator                ctermfg=1                        cterm=none
 hi PreCondit               ctermfg=6                        cterm=none
@@ -61,24 +61,24 @@ hi Underlined              ctermfg=0        ctermbg=none
 hi VertSplit               ctermfg=15       ctermbg=0       cterm=none
 hi Visual                  ctermfg=1        ctermbg=235
 hi VisualNOS               ctermfg=1        ctermbg=235     cterm=bold
-hi WarningMsg              ctermfg=1   
+hi WarningMsg              ctermfg=1
 hi WildMenu                ctermfg=104      ctermbg=1
 hi CursorLine              ctermfg=none     ctermbg=0    cterm=none
-hi LineNr                  ctermfg=0                        cterm=none
+hi LineNr                  ctermfg=0        ctermbg=237       cterm=none
 hi CursorLineNr            ctermfg=9        ctermbg=0                        cterm=none
 hi ErrorMsg                ctermfg=1        ctermbg=none
 
 " html
-hi htmlTag                 ctermfg=5
-hi htmlEndTag              ctermfg=11
-hi htmlTagName             ctermfg=9
-hi htmlString              ctermfg=10
+hi htmlTag                 ctermfg=5        ctermbg=none
+hi htmlEndTag              ctermfg=11       ctermbg=none
+hi htmlTagName             ctermfg=9        ctermbg=none
+hi htmlString              ctermfg=10       ctermbg=none
 
 " django
-hi djangoComBlock          ctermfg=0
-hi djangoComment           ctermfg=0
+hi djangoComBlock          ctermfg=16
+hi djangoComment           ctermfg=16
 hi djangoError             ctermfg=9
-hi djangoStatement         ctermfg=16
+hi djangoStatement         ctermfg=195
 hi djangoTagBlock          ctermfg=5
 hi djangoTagError          ctermfg=9
 hi djangoVarBlock          ctermfg=226
@@ -97,3 +97,6 @@ hi StatusRO                ctermfg=9        ctermbg=13       cterm=bold
 hi StatusHLP               ctermfg=2        ctermbg=13       cterm=bold
 hi StatusPRV               ctermfg=5        ctermbg=13       cterm=bold
 hi StatusFTP               ctermfg=4        ctermbg=13       cterm=bold
+
+" spell
+hi SpellBad                ctermfg=16     ctermbg=9
