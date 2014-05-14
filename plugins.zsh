@@ -1,6 +1,6 @@
 typeset -A plugins
-plugins[ack]='https://github.com/mileszs/ack.vim.git'
 plugins[afterimage]='git://github.com/tpope/vim-afterimage.git'
+plugins[ag]='https://github.com/rking/ag.vim'
 plugins[airline]='https://github.com/bling/vim-airline.git'
 plugins[ansiesc]='git@github.com:vim-scripts/AnsiEsc.vim.git'
 plugins[bclose]='https://github.com/cespare/vim-bclose.git'
