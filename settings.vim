@@ -49,6 +49,11 @@ let g:bl_no_mappings=1
 let g:airline#extensions#tagbar#enabled=1
 let g:airline#extensions#tagbar#flags='f'
 
+let g:XkbSwitchEnabled = 1
+let g:XkbSwitchIMappingsTrData = s:path . '/xkbswitch.tr'
+let g:XkbSwitchIMappings = [ 'bg' ]
+let g:XkbSwitchLib = '/usr/lib/libxkbswitch.so'
+
 set listchars=tab:╾╴,trail:•
 hi SpecialKey ctermbg=none
 
