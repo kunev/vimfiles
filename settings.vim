@@ -12,10 +12,11 @@ set incsearch
 set modeline
 set laststatus=2
 set softtabstop=4
-set directory=~/.vim/swap/
+let s:path = expand('<sfile>:p:h')
+let &directory=s:path . '/swap/'
 
 if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
-    autocmd ColorScheme * so ~/.vim/rmbg.vim
+    exec 'autocmd ColorScheme * so ' . s:path . '/rmbg.vim'
     set t_Co=256
     color badwolf
 else

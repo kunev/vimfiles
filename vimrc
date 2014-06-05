@@ -1,7 +1,10 @@
 call pathogen#infect()
-source ~/.vim/util_functions.vim
-source ~/.vim/settings.vim
-source ~/.vim/mappings.vim
+
+let s:path = expand('<sfile>:p:h')
+
+execute "source" . s:path . "/util_functions.vim"
+execute "source" . s:path . "/settings.vim"
+execute "source" . s:path . "/mappings.vim"
 
 "Start NERDTree
 "autocmd VimEnter * call StartUpNERDTree()
