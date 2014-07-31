@@ -7,7 +7,7 @@ nnoremap <leader>tw :set nowrap!<cr>
 nnoremap <leader>nt :NERDTreeToggle<cr>
 
 "Use <leader>w to save all open buffers
-nnoremap <leader>w :wa<cr>
+nnoremap <leader>w :w<cr>
 
 "Close currently visible buffer in selected window(depends on bclose.vim)
 nnoremap <leader>cb :Kwbd<cr>
