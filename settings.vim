@@ -43,11 +43,14 @@ let g:syntastic_style_warning_symbol='S!'
 
 let g:bufferline_active_buffer_left='▶ '
 let g:bufferline_modified=' ⨳'
+let g:bufferline_fname_mod=':t'
 
 let g:bl_no_mappings=1
 
 let g:airline#extensions#tagbar#enabled=1
 let g:airline#extensions#tagbar#flags='f'
+let g:airline_left_sep='⮀'
+let g:airline_right_sep='⮂'
 
 let g:XkbSwitchEnabled = 1
 let g:XkbSwitchIMappingsTrData = s:path . '/xkbswitch.tr'
