@@ -57,7 +57,7 @@ let g:XkbSwitchIMappingsTrData = s:path . '/xkbswitch.tr'
 let g:XkbSwitchIMappings = [ 'bg' ]
 let g:XkbSwitchLib = '/usr/lib/libxkbswitch.so'
 
-set listchars=tab:╾╴,trail:•
+set listchars=tab:╞═,trail:•,extends:❯,precedes:❮
 hi SpecialKey ctermbg=none
 
 set fillchars=vert:∥,fold:≣
