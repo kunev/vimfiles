@@ -76,3 +76,9 @@ nnoremap <leader>m :Multichange<cr>
 
 nnoremap H :SidewaysLeft<cr>
 nnoremap L :SidewaysRight<cr>
+
+"SClang
+nmap <c-j> :call SClang_block()<cr>
+nmap <c-k> :call SClang_send()<cr>
+nmap <c-b> :SClangStart<cr>
+nmap <c-.> :SClangHardstop<cr>

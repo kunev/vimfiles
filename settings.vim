@@ -57,6 +57,8 @@ let g:XkbSwitchIMappingsTrData = s:path . '/xkbswitch.tr'
 let g:XkbSwitchIMappings = [ 'bg' ]
 let g:XkbSwitchLib = '/usr/lib/libxkbswitch.so'
 
+let g:sclangTerm = 'roxterm -e'
+
 set listchars=tab:╞═,trail:•,extends:❯,precedes:❮
 hi SpecialKey ctermbg=none
 
