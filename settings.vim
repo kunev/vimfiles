@@ -36,10 +36,10 @@ let g:localvimrc_whitelist='/home/kunev/\(\(projects/\(cyberarts/git_repos\|blue
 "Syntastic settings
 let g:syntastic_check_on_open=1
 
-let g:syntastic_error_symbol='✗>'
-let g:syntastic_style_error_symbol='S✗'
-let g:syntastic_warning_symbol='!>'
-let g:syntastic_style_warning_symbol='S!'
+let g:syntastic_error_symbol='✘'
+let g:syntastic_style_error_symbol='✗'
+let g:syntastic_warning_symbol='⚠'
+let g:syntastic_style_warning_symbol='👎'
 
 let g:bufferline_active_buffer_left='▶ '
 let g:bufferline_modified=' ⨳'
