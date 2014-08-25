@@ -59,6 +59,12 @@ let g:XkbSwitchLib = '/usr/lib/libxkbswitch.so'
 
 let g:sclangTerm = 'roxterm -e'
 
+let g:signify_vcs_list = [ 'git', 'hg' ]
+let g:signify_sign_add               = '⨭'
+let g:signify_sign_change            = '≏'
+let g:signify_sign_delete            = '_'
+let g:signify_sign_delete_first_line = '‾'
+
 set listchars=tab:╞═,trail:•,extends:❯,precedes:❮
 hi SpecialKey ctermbg=none
 
