@@ -9,6 +9,9 @@ execute "source" . s:path . "/mappings.vim"
 "Start NERDTree
 "autocmd VimEnter * call StartUpNERDTree()
 
+"Close vim if the only window left is NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 let g:ackhighlight=1
 let g:ackprg = 'ag --nogroup --nocolor --column'
 let g:airline_powerline_fonts = 1

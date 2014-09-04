@@ -1,33 +1,27 @@
 filetype plugin on
-set showtabline=1
-set autoindent
 syntax enable
-set ts=4
-set shiftwidth=4
+
+set autoindent
 set expandtab
 set number
-set numberwidth=2
 set hlsearch
 set incsearch
 set modeline
-set laststatus=2
-set softtabstop=4
-let s:path = expand('<sfile>:p:h')
-let &directory=s:path . '/swap/'
-
-if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
-    exec 'autocmd ColorScheme * so ' . s:path . '/rmbg.vim'
-    set t_Co=256
-    color badwolf
-else
-    set t_Co=8
-endif
-
-set mouse=a
 set cursorline
 
-"Close vim if the only window left is NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+set showtabline=1
+set ts=4
+set shiftwidth=4
+set numberwidth=2
+set laststatus=2
+set softtabstop=4
+set mouse=a
+set listchars=tab:╞═,trail:•,extends:❯,precedes:❮
+set fillchars=vert:∥,fold:≣
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+
+let s:path = expand('<sfile>:p:h')
+let &directory=s:path . '/swap/'
 
 "Local vimrc settings
 let g:localvimrc_sandbox=0
@@ -65,9 +59,4 @@ let g:signify_sign_change            = '≏'
 let g:signify_sign_delete            = '_'
 let g:signify_sign_delete_first_line = '‾'
 
-set listchars=tab:╞═,trail:•,extends:❯,precedes:❮
 hi SpecialKey ctermbg=none
-
-set fillchars=vert:∥,fold:≣
-
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
