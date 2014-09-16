@@ -30,3 +30,4 @@ else
 endif
 
 let base16colorspace=256
+call unite#filters#matcher_default#use(['matcher_fuzzy'])
