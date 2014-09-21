@@ -83,4 +83,4 @@ nmap <c-k> :call SClang_send()<cr>
 nmap <c-b> :SClangStart<cr>
 nmap <c-.> :SClangHardstop<cr>
 
-nnoremap <leader>r :<C-u>Unite -start-insert file_rec/async:!<CR>
+nnoremap <leader>f :<C-u>Unite -start-insert file_rec/async:!<CR>
