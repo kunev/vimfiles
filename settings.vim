@@ -16,6 +16,7 @@ set numberwidth=2
 set laststatus=2
 set softtabstop=4
 set mouse=a
+set diffopt=filler,vertical,iwhite
 set listchars=tab:╞═,trail:•,extends:❯,precedes:❮
 set fillchars=vert:∥,fold:≣
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
