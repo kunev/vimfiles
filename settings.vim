@@ -9,7 +9,7 @@ set incsearch
 set modeline
 set cursorline
 
-set showtabline=1
+set showtabline=2
 set ts=4
 set shiftwidth=4
 set numberwidth=2
