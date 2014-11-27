@@ -26,7 +26,6 @@ let &directory=s:path . '/swap/'
 
 "Local vimrc settings
 let g:localvimrc_sandbox=0
-let g:localvimrc_whitelist='/home/kunev/\(\(projects/\(cyberarts/git_repos\|blue_edge\)\|code/js/knockout-validout\)\|FMI/js-lectures-public\)/.lvimrc'
 
 "Syntastic settings
 let g:syntastic_check_on_open=1
