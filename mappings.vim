@@ -57,6 +57,10 @@ cmap w!! w !sudo tee >/dev/null %
 "Start gitv with
 nnoremap <leader>g :Gitv<cr>
 
+"Mappings for fugitive
+nnoremap <leader>gb :Gblame<cr>
+nnoremap <leader>gs :Git show <cword><cr>
+
 "Navigate buffers
 nnoremap <leader>j :bnext<cr>
 nnoremap <leader>k :bprev<cr>
