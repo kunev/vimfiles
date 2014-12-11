@@ -46,6 +46,12 @@ let g:airline#extensions#tagbar#flags='f'
 let g:airline_left_sep=''
 let g:airline_right_sep=''
 
+function! Noscrollbar(...)
+    let w:airline_section_z = '%{noscrollbar#statusline(20, "─", "•")}'
+endfunction
+
+call airline#add_statusline_func('Noscrollbar')
+
 let g:XkbSwitchEnabled = 1
 let g:XkbSwitchIMappingsTrData = s:path . '/xkbswitch.tr'
 let g:XkbSwitchIMappings = [ 'bg' ]
