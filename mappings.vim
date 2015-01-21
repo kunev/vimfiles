@@ -95,4 +95,3 @@ nnoremap <leader>r :<C-u>Unite -smartcase -no-split -buffer-name=mru     -start-
 nnoremap <leader>o :<C-u>Unite -smartcase -no-split -buffer-name=outline -start-insert outline<cr>
 nnoremap <leader>y :<C-u>Unite -smartcase -no-split -buffer-name=yank    history/yank<cr>
 nnoremap <leader>e :<C-u>Unite -smartcase -no-split -buffer-name=buffer  buffer<cr>
-nnoremap <leader>e :<C-u>Unite -smartcase -no-split -buffer-name=buffer  buffer<cr>
