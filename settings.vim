@@ -22,7 +22,7 @@ set fillchars=vert:∥,fold:≣
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 let s:path = expand('<sfile>:p:h')
-let &directory=s:path . '/swap/'
+let &directory = s:path . '/swap/'
 
 "Local vimrc settings
 let g:localvimrc_sandbox=0
@@ -84,3 +84,4 @@ let g:rbpt_colorpairs = [
 
 let g:rbpt_max = 16
 let g:rbpt_loadcmd_toggle = 0
+let g:gutentags_cache_dir = s:path . "/tags"
