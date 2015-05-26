@@ -1,4 +1,4 @@
-let mapleader='\'
+let mapleader=','
 
 "Toggle text wrapping with <leader>tw
 nnoremap <leader>tw :set nowrap!<cr>
