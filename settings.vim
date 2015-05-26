@@ -1,7 +1,9 @@
 filetype plugin on
+filetype plugin indent on
 syntax enable
 
 set autoindent
+set smartindent
 set expandtab
 set number
 set hlsearch
@@ -21,8 +23,11 @@ set listchars=tab:╞═,trail:•,extends:❯,precedes:❮
 set fillchars=vert:∥,fold:≣
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
+set backup
+set backupdir=~/.vim/backups
+
 let s:path = expand('<sfile>:p:h')
-let &directory = s:path . '/swap/'
+let &directory = s:path . '/swap'
 
 "Local vimrc settings
 let g:localvimrc_sandbox=0
