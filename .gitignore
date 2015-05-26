@@ -1,3 +1,5 @@
 .netrwhist
 bundle/*/
 swap/
+tags/
+backups/
