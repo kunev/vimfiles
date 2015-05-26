@@ -89,9 +89,9 @@ nmap <c-.> :SClangHardstop<cr>
 
 let g:unite_source_history_yank_enable = 1
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
-nnoremap <leader>f :<C-u>Unite -smartcase -no-split -buffer-name=files   -start-insert file_rec/async:!<cr>
-nnoremap <leader>t :<C-u>Unite -smartcase -no-split -buffer-name=files   -start-insert tag<cr>
-nnoremap <leader>r :<C-u>Unite -smartcase -no-split -buffer-name=mru     -start-insert file_mru<cr>
-nnoremap <leader>o :<C-u>Unite -smartcase -no-split -buffer-name=outline -start-insert outline<cr>
-nnoremap <leader>y :<C-u>Unite -smartcase -no-split -buffer-name=yank    history/yank<cr>
-nnoremap <leader>e :<C-u>Unite -smartcase -no-split -buffer-name=buffer  buffer<cr>
+nnoremap <leader>f :<C-u>Unite -smartcase -buffer-name=files   -start-insert file_rec/async:!<cr>
+nnoremap <leader>t :<C-u>Unite -smartcase -buffer-name=files   -start-insert tag<cr>
+nnoremap <leader>r :<C-u>Unite -smartcase -buffer-name=mru     -start-insert file_mru<cr>
+nnoremap <leader>o :<C-u>Unite -smartcase -buffer-name=outline -start-insert outline<cr>
+nnoremap <leader>y :<C-u>Unite -smartcase -buffer-name=yank    history/yank<cr>
+nnoremap <leader>e :<C-u>Unite -smartcase -buffer-name=buffer  buffer<cr>
