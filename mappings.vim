@@ -69,7 +69,7 @@ nnoremap <leader>k :bprev<cr>
 nnoremap <leader>e :Errors<cr>
 
 "Toggle Gudno with gu
-nnoremap <leader>gu :GundoToggle<cr>
+nnoremap <leader>gg :GundoToggle<cr>
 
 "Toggle list
 nnoremap <leader>tl :set list!<cr>
