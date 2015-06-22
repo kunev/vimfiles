@@ -34,4 +34,3 @@ if ($BASE16_SCHEME != '' && $BASE16_FLAVOR != '')
     exec "set bg=" . $BASE16_FLAVOR
     exec "color base16-" . $BASE16_SCHEME
 endif
-call unite#filters#matcher_default#use(['matcher_fuzzy'])
