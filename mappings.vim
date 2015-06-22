@@ -89,5 +89,7 @@ nmap <c-.> :SClangHardstop<cr>
 
 nnoremap <c-]> :CtrlPtjump<cr>
 vnoremap <c-]> :CtrlPtjumpVisual<cr>
+nnoremap <leader>e :CtrlPBuffer<cr>
+nnoremap <leader>mr :CtrlPMRUFiles<cr>
 
 nnoremap <leader>a :ArgWrap<cr>
