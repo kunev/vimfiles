@@ -90,3 +90,10 @@ let g:rbpt_colorpairs = [
 let g:rbpt_max = 16
 let g:rbpt_loadcmd_toggle = 0
 let g:gutentags_cache_dir = s:path . "/tags"
+
+let g:ctrlp_tjump_only_silent = 1
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(pyc|pyo)$',
+  \ }
