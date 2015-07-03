@@ -20,8 +20,8 @@ nnoremap j gj
 nnoremap k gk
 
 "Big moves
-nnoremap J <c-e>
-nnoremap K <c-y>
+nnoremap J 5j
+nnoremap K 5k
 
 "Toggle taglist with <leader>t
 nnoremap <leader>t :TagbarToggle<cr>
