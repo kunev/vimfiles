@@ -91,6 +91,15 @@ let g:rbpt_max = 16
 let g:rbpt_loadcmd_toggle = 0
 let g:gutentags_cache_dir = s:path . "/tags"
 
+if executable("ag")
+    set grepprg=ag\ --nogroup\ --nocolor
+    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
+
+let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'dir', 'rtscript',
+                         \ 'undo', 'line', 'changes', 'mixed', 'bookmarkdir']
+
+
 let g:ctrlp_tjump_only_silent = 1
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_custom_ignore = {
