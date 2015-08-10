@@ -5,6 +5,7 @@ let s:path = expand('<sfile>:p:h')
 execute "source" . s:path . "/util_functions.vim"
 execute "source" . s:path . "/settings.vim"
 execute "source" . s:path . "/mappings.vim"
+execute "source" . s:path . "/commands.vim"
 
 "Start NERDTree
 "autocmd VimEnter * call StartUpNERDTree()
