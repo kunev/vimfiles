@@ -19,10 +19,6 @@ nnoremap <tab> <c-w><c-w>
 nnoremap j gj
 nnoremap k gk
 
-"Big moves
-nnoremap J 5j
-nnoremap K 5k
-
 "Toggle taglist with <leader>t
 nnoremap <leader>t :TagbarToggle<cr>
 
@@ -59,7 +55,7 @@ nnoremap <leader>g :Gitv<cr>
 
 "Mappings for fugitive
 nnoremap <leader>gb :Gblame<cr>
-nnoremap <leader>gs :Git show <cword><cr>
+nnoremap <leader>gs :Gsplit <cword><cr>
 
 "Navigate buffers
 nnoremap <leader>j :bnext<cr>
