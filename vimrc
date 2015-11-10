@@ -24,7 +24,7 @@ if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
     if $PRESENTATION
         color solarized
     else
-        color nucolors
+        color gruvbox
     endif
 else
     set t_Co=8
