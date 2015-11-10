@@ -11,6 +11,7 @@ set incsearch
 set modeline
 set cursorline
 
+set background=dark
 set showtabline=2
 set ts=4
 set shiftwidth=4
