@@ -24,14 +24,8 @@ if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
     if $PRESENTATION
         color solarized
     else
-        color icantbelieveitsnotbutter
+        color nucolors
     endif
 else
     set t_Co=8
-endif
-
-let base16colorspace=256
-if ($BASE16_SCHEME != '' && $BASE16_FLAVOR != '')
-    exec "set bg=" . $BASE16_FLAVOR
-    exec "color base16-" . $BASE16_SCHEME
 endif
