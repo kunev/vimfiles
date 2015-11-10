@@ -23,7 +23,7 @@ nnoremap k gk
 nnoremap <leader>t :TagbarToggle<cr>
 
 "Stop highlighting the last search
-nnoremap <c-h> :nohlsearch<cr>
+nnoremap <a-h> :nohlsearch<cr>
 
 "Open mapings file in a split for quick edits
 nnoremap <leader>em :vsp ~/.vim/mappings.vim<cr>
