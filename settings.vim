@@ -107,3 +107,4 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)$',
   \ 'file': '\v\.(pyc|pyo)$',
   \ }
+let g:gruvbox_contrast_dark='hard'
