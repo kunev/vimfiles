@@ -77,10 +77,17 @@ nnoremap <leader>m :Multichange<cr>
 nnoremap H :SidewaysLeft<cr>
 nnoremap L :SidewaysRight<cr>
 
-nnoremap <c-]> :CtrlPtjump<cr>
-vnoremap <c-]> :CtrlPtjumpVisual<cr>
-nnoremap <leader>e :CtrlPBuffer<cr>
 nnoremap <leader>mr :CtrlPMRUFiles<cr>
 nnoremap <leader>/ :CtrlPLine<cr>
 
 nnoremap <leader>a :ArgWrap<cr>
+
+" fzf mappings
+nnoremap <c-p> :Files<cr>
+nnoremap <leader>e :Buffers<cr>
+nnoremap <c-t> :Tags<cr>
+
+imap <c-x><c-k> <plug>(fzf-complete-word)
+imap <c-x><c-f> <plug>(fzf-complete-path)
+imap <c-x><c-j> <plug>(fzf-complete-file-ag)
+imap <c-x><c-l> <plug>(fzf-complete-line)

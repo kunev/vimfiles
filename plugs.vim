@@ -1,7 +1,6 @@
 let s:path = expand('<sfile>:p:h')
 call plug#begin(s:path . '/plugged')
 Plug 'git://github.com/tpope/vim-afterimage.git'
-Plug 'https://github.com/rking/ag.vim'
 Plug 'https://github.com/bling/vim-airline.git'
 Plug 'https://github.com/vim-scripts/AnsiEsc.vim'
 Plug 'git@github.com:FooSoft/vim-argwrap.git'
@@ -20,8 +19,6 @@ Plug 'https://github.com/vim-scripts/Color-Scheme-Explorer.git'
 Plug 'https://github.com/zefei/vim-colortuner'
 Plug 'https://github.com/tpope/vim-commentary'
 Plug 'git@github.com:chrisbra/csv.vim.git'
-Plug 'git@github.com:kien/ctrlp.vim.git'
-Plug 'git@github.com:ivalkeen/vim-ctrlp-tjump.git'
 Plug 'https://github.com/vim-scripts/dbext.vim.git'
 Plug 'https://github.com/szw/vim-dict'
 Plug 'https://github.com/Lokaltog/vim-easymotion.git'
@@ -90,4 +87,6 @@ Plug 'git://github.com/bronson/vim-visual-star-search.git'
 Plug 'https://github.com/AndrewRadev/writable_search.vim'
 Plug 'https://github.com/lyokha/vim-xkbswitch'
 Plug 'https://github.com/vim-scripts/ZoomWin.git'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 call plug#end()
