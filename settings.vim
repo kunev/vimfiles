@@ -108,3 +108,5 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(pyc|pyo)$',
   \ }
 let g:gruvbox_contrast_dark='hard'
+
+let g:argwrap_wrap_closing_brace=0
