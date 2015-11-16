@@ -89,4 +89,5 @@ Plug 'https://github.com/lyokha/vim-xkbswitch'
 Plug 'https://github.com/vim-scripts/ZoomWin.git'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'Rykka/riv.vim', {'for': 'rst'} | Plug 'Rykka/InstantRst', {'for': 'rst'} | Plug 'Rykka/rhythm.css', {'for': 'rst'}
 call plug#end()
