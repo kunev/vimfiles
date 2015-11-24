@@ -86,4 +86,5 @@ Plug 'https://github.com/AndrewRadev/writable_search.vim'
 Plug 'https://github.com/lyokha/vim-xkbswitch'
 Plug 'https://github.com/vim-scripts/ZoomWin.git'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } | Plug 'junegunn/fzf.vim'
+Plug 'sjl/badwolf'
 call plug#end()

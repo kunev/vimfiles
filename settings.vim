@@ -100,3 +100,6 @@ let g:fzf_action = {
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
 let g:fzf_layout = { 'down': '~40%' }
+
+let g:badwolf_tabline = 0
+let g:badwolf_css_props_highlight = 1
