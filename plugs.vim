@@ -87,4 +87,5 @@ Plug 'https://github.com/lyokha/vim-xkbswitch'
 Plug 'https://github.com/vim-scripts/ZoomWin.git'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } | Plug 'junegunn/fzf.vim'
 Plug 'sjl/badwolf'
+Plug 'cespare/vim-toml'
 call plug#end()
