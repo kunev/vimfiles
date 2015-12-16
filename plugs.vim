@@ -88,4 +88,5 @@ Plug 'https://github.com/vim-scripts/ZoomWin.git'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } | Plug 'junegunn/fzf.vim'
 Plug 'sjl/badwolf'
 Plug 'cespare/vim-toml'
+Plug 'solarnz/thrift.vim'
 call plug#end()
