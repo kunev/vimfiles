@@ -89,4 +89,5 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } | Plug 'junegu
 Plug 'sjl/badwolf'
 Plug 'cespare/vim-toml'
 Plug 'solarnz/thrift.vim'
+Plug 'junegunn/vim-peekaboo'
 call plug#end()
