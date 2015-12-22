@@ -63,7 +63,6 @@ Plug 'https://github.com/kovisoft/slimv', {'for': ['clojure', 'scheme', 'lisp']}
 Plug 'git://github.com/garbas/vim-snipmate.git'
 Plug 'https://github.com/honza/vim-snippets.git'
 Plug 'https://github.com/AndrewRadev/splitjoin.vim.git'
-Plug 'https://github.com/ervandew/supertab.git'
 Plug 'https://github.com/tpope/vim-surround.git'
 Plug 'https://github.com/scrooloose/syntastic'
 Plug 'https://github.com/vim-scripts/SyntaxRange'
@@ -90,4 +89,5 @@ Plug 'sjl/badwolf'
 Plug 'cespare/vim-toml'
 Plug 'solarnz/thrift.vim'
 Plug 'junegunn/vim-peekaboo'
+Plug 'freeo/vim-kalisi'
 call plug#end()

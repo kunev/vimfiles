@@ -21,10 +21,11 @@ if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
     execute "autocmd ColorScheme * so " . s:path . "/rmbg.vim"
     set t_Co=256
     if $PRESENTATION
-        color solarized
+        set background=light
     else
-        color badwolf
+        set background=dark
     endif
+    color kalisi
 else
     set t_Co=8
 endif
