@@ -1,7 +1,6 @@
 let s:path = expand('<sfile>:p:h')
 call plug#begin(s:path . '/plugged')
 Plug 'git://github.com/tpope/vim-afterimage.git'
-Plug 'https://github.com/bling/vim-airline.git'
 Plug 'https://github.com/vim-scripts/AnsiEsc.vim'
 Plug 'git@github.com:FooSoft/vim-argwrap.git'
 Plug 'git@github.com:Chiel92/vim-autoformat.git'
@@ -90,4 +89,5 @@ Plug 'cespare/vim-toml'
 Plug 'solarnz/thrift.vim'
 Plug 'junegunn/vim-peekaboo'
 Plug 'freeo/vim-kalisi'
+Plug 'itchyny/lightline.vim'
 call plug#end()
