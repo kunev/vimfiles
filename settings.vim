@@ -10,6 +10,7 @@ set hlsearch
 set incsearch
 set modeline
 set cursorline
+set noautoread
 
 set background=dark
 set showtabline=2
