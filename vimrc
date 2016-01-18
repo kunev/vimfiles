@@ -25,7 +25,11 @@ if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
     else
         set background=dark
     endif
-    color kalisi
+    color badwolf
 else
     set t_Co=8
 endif
+
+highlight Normal ctermbg=none guibg=none
+highlight NonText ctermbg=none guibg=none
+au ColorScheme * hi Normal ctermbg=none guibg=none
