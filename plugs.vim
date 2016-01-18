@@ -90,4 +90,5 @@ Plug 'solarnz/thrift.vim'
 Plug 'junegunn/vim-peekaboo'
 Plug 'freeo/vim-kalisi'
 Plug 'itchyny/lightline.vim'
+Plug 'Shougo/deoplete.nvim'
 call plug#end()
