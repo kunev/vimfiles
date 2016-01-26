@@ -56,7 +56,7 @@ let g:airline_right_sep=''
 let g:XkbSwitchEnabled = 1
 let g:XkbSwitchIMappingsTrData = s:path . '/xkbswitch.tr'
 let g:XkbSwitchIMappings = [ 'bg' ]
-let g:XkbSwitchLib = '/usr/lib/libxkbswitch.so'
+let g:XkbSwitchLib = '/usr/local/lib/libxkbswitch.so'
 
 let g:sclangTerm = 'roxterm -e'
 
