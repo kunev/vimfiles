@@ -11,6 +11,8 @@ set incsearch
 set modeline
 set cursorline
 set noautoread
+set splitright
+set splitbelow
 
 set background=dark
 set showtabline=2
