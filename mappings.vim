@@ -97,3 +97,6 @@ if has('nvim')
     " Exit to normal mode with Esc in terminal mode
     tnoremap <Esc> <C-\><C-n>
 endif
+
+nnoremap ]l :lnext<cr>
+nnoremap [l :lprev<cr>
