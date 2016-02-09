@@ -29,20 +29,13 @@ set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 set backup
 set backupdir=~/.vim/backups
+autocmd! BufWritePost * Neomake
 
 let s:path = expand('<sfile>:p:h')
 let &directory = s:path . '/swap'
 
 "Local vimrc settings
 let g:localvimrc_sandbox=0
-
-"Syntastic settings
-let g:syntastic_check_on_open=1
-let g:syntastic_error_symbol='✘'
-let g:syntastic_style_error_symbol='👎'
-let g:syntastic_warning_symbol='⚠'
-let g:syntastic_style_warning_symbol='☹'
-let g:syntastic_always_populate_loc_list = 1
 
 let g:bufferline_active_buffer_left='▶ '
 let g:bufferline_modified=' ⨳'

@@ -63,7 +63,6 @@ Plug 'git://github.com/garbas/vim-snipmate.git'
 Plug 'https://github.com/honza/vim-snippets.git'
 Plug 'https://github.com/AndrewRadev/splitjoin.vim.git'
 Plug 'https://github.com/tpope/vim-surround.git'
-Plug 'https://github.com/scrooloose/syntastic'
 Plug 'https://github.com/vim-scripts/SyntaxRange'
 Plug 'https://github.com/Matt-Deacalion/vim-systemd-syntax', {'for': 'systemd'}
 Plug 'git://github.com/majutsushi/tagbar'
@@ -91,4 +90,5 @@ Plug 'junegunn/vim-peekaboo'
 Plug 'freeo/vim-kalisi'
 Plug 'itchyny/lightline.vim'
 Plug 'Shougo/deoplete.nvim'
+Plug 'benekastah/neomake'
 call plug#end()
