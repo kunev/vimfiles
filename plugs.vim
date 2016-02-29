@@ -24,7 +24,6 @@ Plug 'git://github.com/tpope/vim-fireplace.git', {'fot': 'clojure'}
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/gregsexton/gitv.git'
 Plug 'https://github.com/jamessan/vim-gnupg'
-Plug 'git://github.com/jnwhiteh/vim-golang.git', {'for': 'go'}
 Plug 'http://github.com/sjl/gundo.vim.git'
 Plug 'https://github.com/ludovicchabant/vim-gutentags'
 Plug 'git://github.com/othree/html5.vim.git', {'for': 'html'}
@@ -46,7 +45,6 @@ Plug 'https://github.com/Shougo/neomru.vim'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'git@github.com:ivalkeen/nerdtree-execute.git'
 Plug 'git@github.com:zah/nimrod.vim.git', {'fot': 'nim'}
-Plug 'https://github.com/jamescarr/snipmate-nodejs', {'for': 'javascript'}
 Plug 'https://github.com/xolox/vim-notes'
 Plug 'https://github.com/koron/nyancat-vim.git'
 Plug 'https://github.com/kovisoft/paredit'
@@ -59,7 +57,6 @@ Plug 'https://github.com/derekwyatt/vim-scala.git', {'for': 'scala'}
 Plug 'git@github.com:AndrewRadev/sideways.vim.git'
 Plug 'https://github.com/mhinz/vim-signify'
 Plug 'https://github.com/kovisoft/slimv', {'for': ['clojure', 'scheme', 'lisp']}
-Plug 'git://github.com/garbas/vim-snipmate.git'
 Plug 'https://github.com/honza/vim-snippets.git'
 Plug 'https://github.com/AndrewRadev/splitjoin.vim.git'
 Plug 'https://github.com/tpope/vim-surround.git'
@@ -68,7 +65,6 @@ Plug 'https://github.com/Matt-Deacalion/vim-systemd-syntax', {'for': 'systemd'}
 Plug 'git://github.com/majutsushi/tagbar'
 Plug 'git@github.com:tomtom/tcomment_vim.git'
 Plug 'git://github.com/tomtom/tlib_vim.git'
-Plug 'git@github.com:wellle/tmux-complete.vim.git'
 Plug 'https://github.com/fatih/vim-go', {'for': 'go'}
 Plug 'https://github.com/hylang/vim-hy'
 Plug 'https://github.com/gotcha/vimpdb.git', {'for': 'python'}
@@ -90,5 +86,9 @@ Plug 'junegunn/vim-peekaboo'
 Plug 'freeo/vim-kalisi'
 Plug 'itchyny/lightline.vim'
 Plug 'Shougo/deoplete.nvim'
+Plug 'zchee/deoplete-go'
+Plug 'garyburd/go-explorer'
+Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
 Plug 'benekastah/neomake'
 call plug#end()
