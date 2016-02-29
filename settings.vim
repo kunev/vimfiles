@@ -30,6 +30,7 @@ set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set backup
 set backupdir=~/.vim/backups
 autocmd! BufWritePost * Neomake
+autocmd! BufReadPost * Neomake
 
 let s:path = expand('<sfile>:p:h')
 let &directory = s:path . '/swap'
