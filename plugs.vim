@@ -57,7 +57,7 @@ Plug 'https://github.com/derekwyatt/vim-scala.git', {'for': 'scala'}
 Plug 'git@github.com:AndrewRadev/sideways.vim.git'
 Plug 'https://github.com/mhinz/vim-signify'
 Plug 'https://github.com/kovisoft/slimv', {'for': ['clojure', 'scheme', 'lisp']}
-Plug 'https://github.com/honza/vim-snippets.git'
+" Plug 'https://github.com/honza/vim-snippets.git'
 Plug 'https://github.com/AndrewRadev/splitjoin.vim.git'
 Plug 'https://github.com/tpope/vim-surround.git'
 Plug 'https://github.com/vim-scripts/SyntaxRange'
@@ -91,4 +91,8 @@ Plug 'garyburd/go-explorer'
 Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
 Plug 'benekastah/neomake'
+Plug 'https://github.com/vim-scripts/SyntaxRange'
+Plug 'Raimondi/delimitMate'
+Plug 'airblade/vim-rooter'
+Plug 'artur-shaik/vim-javacomplete2'
 call plug#end()
