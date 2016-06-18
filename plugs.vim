@@ -19,7 +19,7 @@ Plug 'git@github.com:chrisbra/csv.vim.git', {'for': 'csv'}
 Plug 'https://github.com/vim-scripts/dbext.vim.git'
 Plug 'https://github.com/szw/vim-dict'
 Plug 'https://github.com/Lokaltog/vim-easymotion.git'
-Plug 'https://github.com/mattn/emmet-vim', {'for': 'html'}
+Plug 'https://github.com/mattn/emmet-vim', {'for': ['html', 'xml']}
 Plug 'git://github.com/tpope/vim-fireplace.git', {'fot': 'clojure'}
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/gregsexton/gitv.git'
@@ -55,9 +55,7 @@ Plug 'https://github.com/peterhoeg/vim-qml'
 Plug 'https://github.com/boris-petrov/rainbow_parentheses.vim'
 Plug 'https://github.com/derekwyatt/vim-scala.git', {'for': 'scala'}
 Plug 'git@github.com:AndrewRadev/sideways.vim.git'
-Plug 'https://github.com/mhinz/vim-signify'
 Plug 'https://github.com/kovisoft/slimv', {'for': ['clojure', 'scheme', 'lisp']}
-" Plug 'https://github.com/honza/vim-snippets.git'
 Plug 'https://github.com/AndrewRadev/splitjoin.vim.git'
 Plug 'https://github.com/tpope/vim-surround.git'
 Plug 'https://github.com/vim-scripts/SyntaxRange'
@@ -92,7 +90,8 @@ Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
 Plug 'benekastah/neomake'
 Plug 'https://github.com/vim-scripts/SyntaxRange'
-Plug 'Raimondi/delimitMate'
 Plug 'airblade/vim-rooter'
 Plug 'artur-shaik/vim-javacomplete2'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-utils/vim-husk'
 call plug#end()
