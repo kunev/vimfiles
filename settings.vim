@@ -117,3 +117,5 @@ let g:lightline = {
       \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
       \ },
 \ }
+
+let g:deoplete#enable_at_startup = 1
