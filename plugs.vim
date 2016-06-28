@@ -91,7 +91,9 @@ Plug 'Shougo/neosnippet-snippets'
 Plug 'benekastah/neomake'
 Plug 'https://github.com/vim-scripts/SyntaxRange'
 Plug 'airblade/vim-rooter'
-Plug 'artur-shaik/vim-javacomplete2'
+Plug 'artur-shaik/vim-javacomplete2', {'for': 'java'}
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-utils/vim-husk'
+Plug 'LucHermitte/vim-refactor'
+Plug 'vhakulinen/neovim-intellij-complete-deoplete', {'for': 'java'}
 call plug#end()
