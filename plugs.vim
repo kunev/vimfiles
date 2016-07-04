@@ -44,7 +44,7 @@ Plug 'git://github.com/MarcWeber/vim-addon-mw-utils.git'
 Plug 'https://github.com/Shougo/neomru.vim'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'git@github.com:ivalkeen/nerdtree-execute.git'
-Plug 'git@github.com:zah/nimrod.vim.git', {'fot': 'nim'}
+Plug 'https://github.com/zah/nim.vim', {'for': 'nim'}
 Plug 'https://github.com/xolox/vim-notes'
 Plug 'https://github.com/koron/nyancat-vim.git'
 Plug 'https://github.com/kovisoft/paredit'
