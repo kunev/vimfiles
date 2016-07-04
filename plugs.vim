@@ -96,4 +96,5 @@ Plug 'airblade/vim-gitgutter'
 Plug 'vim-utils/vim-husk'
 Plug 'LucHermitte/vim-refactor'
 Plug 'vhakulinen/neovim-intellij-complete-deoplete', {'for': 'java'}
+Plug 'wincent/loupe'
 call plug#end()
