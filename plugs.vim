@@ -97,4 +97,6 @@ Plug 'vim-utils/vim-husk'
 Plug 'LucHermitte/vim-refactor'
 Plug 'vhakulinen/neovim-intellij-complete-deoplete', {'for': 'java'}
 Plug 'wincent/loupe'
+Plug 'guns/xterm-color-table.vim'
+Plug 'plasticboy/vim-markdown'
 call plug#end()
