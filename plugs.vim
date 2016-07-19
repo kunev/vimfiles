@@ -4,7 +4,6 @@ Plug 'tpope/vim-afterimage'
 Plug 'vim-scripts/AnsiEsc.vim'
 Plug 'FooSoft/vim-argwrap'
 Plug 'Chiel92/vim-autoformat'
-Plug 'cespare/vim-bclose'
 Plug 'bling/vim-bufferline'
 Plug 'tpope/vim-classpath', {'for': 'clojure'}
 Plug 'guns/vim-clojure-static', {'for': 'clojure'}

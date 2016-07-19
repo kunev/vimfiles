@@ -9,8 +9,8 @@ nnoremap <leader>nt :NERDTreeToggle<cr>
 "Use <leader>w to save all open buffers
 nnoremap <leader>w :w<cr>
 
-"Close currently visible buffer in selected window(depends on bclose.vim)
-nnoremap <leader>cb :Kwbd<cr>
+"Close current buffer and window
+nnoremap <leader> cb
 
 "Switch windows with Tab in normal mode
 nnoremap <tab> <c-w><c-w>
