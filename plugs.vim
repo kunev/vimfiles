@@ -82,7 +82,10 @@ Plug 'solarnz/thrift.vim'
 Plug 'junegunn/vim-peekaboo'
 Plug 'freeo/vim-kalisi'
 Plug 'itchyny/lightline.vim'
-Plug 'Shougo/deoplete.nvim'
+function! DoRemote(arg)
+  UpdateRemotePlugins
+endfunction
+Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
 Plug 'zchee/deoplete-go'
 Plug 'garyburd/go-explorer'
 Plug 'Shougo/neosnippet.vim'
@@ -95,7 +98,6 @@ Plug 'artur-shaik/vim-javacomplete2', {'for': 'java'}
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-utils/vim-husk'
 Plug 'LucHermitte/vim-refactor'
-Plug 'vhakulinen/neovim-intellij-complete-deoplete', {'for': 'java'}
 Plug 'wincent/loupe'
 Plug 'guns/xterm-color-table.vim'
 Plug 'plasticboy/vim-markdown'
