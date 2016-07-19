@@ -3,3 +3,4 @@ plugged/*/
 swap/
 tags/
 backups/
+.init.vim-rplugin~
