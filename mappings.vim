@@ -20,7 +20,7 @@ nnoremap j gj
 nnoremap k gk
 
 "Toggle taglist with <leader>t
-nnoremap <leader>t :TagbarToggle<cr>
+nnoremap <leader>tt :TagbarToggle<cr>
 
 "Stop highlighting the last search
 nnoremap <a-h> :nohlsearch<cr>
@@ -32,7 +32,10 @@ nnoremap <leader>em :vsp ~/.vim/mappings.vim<cr>
 nnoremap sv :so $MYVIMRC<cr>
 
 "Swap normal and relative line numbers
-nnoremap <leader><space> :set relativenumber!<cr>
+nnoremap <leader>tr :set relativenumber!<cr>
+
+" Toggle line numbers
+nnoremap <leader>tn :set numbers!<cr>
 
 "Easier movements to start/end of line
 nnoremap <leader>h ^
