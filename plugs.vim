@@ -99,4 +99,5 @@ Plug 'vhakulinen/neovim-intellij-complete-deoplete', {'for': 'java'}
 Plug 'wincent/loupe'
 Plug 'guns/xterm-color-table.vim'
 Plug 'plasticboy/vim-markdown'
+Plug 'godlygeek/tabular'
 call plug#end()
