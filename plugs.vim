@@ -87,6 +87,7 @@ function! DoRemote(arg)
 endfunction
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
 Plug 'zchee/deoplete-go'
+Plug 'zchee/deoplete-jedi'
 Plug 'garyburd/go-explorer'
 Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
