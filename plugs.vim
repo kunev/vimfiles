@@ -7,7 +7,7 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'bling/vim-bufferline'
 Plug 'tpope/vim-classpath', {'for': 'clojure'}
 Plug 'guns/vim-clojure-static', {'for': 'clojure'}
-Plug 'kchmck/vim-coffee-script', {'for': 'coffeescript'}
+Plug 'kchmck/vim-coffee-script', {'for': 'coffee'}
 Plug 'gorodinskiy/vim-coloresque'
 Plug 'mtglsk/mushroom'
 Plug 'idbrii/vim-sandydune'
