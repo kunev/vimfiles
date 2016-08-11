@@ -12,8 +12,9 @@ nnoremap <leader>w :w<cr>
 "Close current buffer and window
 nnoremap <leader>cb :bd<cr>
 
-"Switch windows with Tab in normal mode
+"Switch windows with Tab/Shift Tab in normal mode
 nnoremap <tab> <c-w><c-w>
+nnoremap <s-tab> <c-w>W
 
 "Move always by visual line
 nnoremap j gj
