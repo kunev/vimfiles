@@ -10,7 +10,7 @@ nnoremap <leader>nt :NERDTreeToggle<cr>
 nnoremap <leader>w :w<cr>
 
 "Close current buffer and window
-nnoremap <leader>cb :bd<cr>
+nnoremap <leader>cb :bd \| bd #<cr>
 
 "Switch windows with Tab/Shift Tab in normal mode
 nnoremap <tab> <c-w><c-w>
