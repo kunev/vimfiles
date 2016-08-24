@@ -30,6 +30,6 @@ else
     set t_Co=8
 endif
 
-highlight Normal ctermbg=none guibg=none
-highlight NonText ctermbg=none guibg=none
-au ColorScheme * hi Normal ctermbg=none guibg=none
+highlight Normal ctermbg=NONE guibg=NONE
+highlight NonText ctermbg=NONE guibg=NONE
+au ColorScheme * hi Normal ctermbg=NONE guibg=NONE
