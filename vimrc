@@ -1,6 +1,6 @@
 let s:path = expand('<sfile>:p:h')
 
-execute "source" . s:path . "/util_functions.vim"
+execute "source" . s:path . "/misc.vim"
 execute "source" . s:path . "/plugs.vim"
 execute "source" . s:path . "/settings.vim"
 execute "source" . s:path . "/mappings.vim"
