@@ -82,9 +82,6 @@ Plug 'solarnz/thrift.vim'
 Plug 'junegunn/vim-peekaboo'
 Plug 'freeo/vim-kalisi'
 Plug 'itchyny/lightline.vim'
-function! DoRemote(arg)
-  UpdateRemotePlugins
-endfunction
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
 Plug 'zchee/deoplete-go'
 Plug 'zchee/deoplete-jedi'

@@ -3,3 +3,7 @@ function! StartUpNERDTree()
 		exec 'NERDTree'
 	endif
 endfunction
+
+function! DoRemote(arg)
+  UpdateRemotePlugins
+endfunction
