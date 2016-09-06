@@ -37,6 +37,7 @@ let &directory = s:path . '/swap'
 
 "Local vimrc settings
 let g:localvimrc_sandbox=0
+let g:localvimrc_persistent=1
 
 let g:bufferline_active_buffer_left='▶ '
 let g:bufferline_modified=' ⨳'
