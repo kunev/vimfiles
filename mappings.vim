@@ -96,19 +96,8 @@ imap <c-x><c-f> <plug>(fzf-complete-path)
 imap <c-x><c-j> <plug>(fzf-complete-file-ag)
 imap <c-x><c-l> <plug>(fzf-complete-line)
 
-" nvim specific mappings
-if has('nvim')
-    " Exit to normal mode with Esc in terminal mode
-    tnoremap <Esc> <C-\><C-n>
-endif
-
 nnoremap ]l :lnext<cr>
 nnoremap [l :lprev<cr>
-
-" Neosnippet key-mappings.
-imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-smap <C-k>     <Plug>(neosnippet_expand_or_jump)
-xmap <C-k>     <Plug>(neosnippet_expand_target)
 
 " Reparse code for syntax highlight
 nnoremap <Leader>S <Esc>:syntax sync fromstart<CR>
