@@ -93,4 +93,6 @@ Plug 'plasticboy/vim-markdown'
 Plug 'godlygeek/tabular'
 Plug 'keith/swift.vim'
 Plug 'andreasvc/vim-256noir'
+Plug 'garbas/vim-snipmate'
+Plug 'honza/vim-snippets'
 call plug#end()
