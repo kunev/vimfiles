@@ -1,3 +1,4 @@
 color badwolf
+set bg=dark
 set go=
-set guifont=Droid\ Sans\ Mono\ 9
+source ~/.vim/vimrc
