@@ -101,3 +101,7 @@ nnoremap [l :lprev<cr>
 
 " Reparse code for syntax highlight
 nnoremap <Leader>S <Esc>:syntax sync fromstart<CR>
+
+" snipmate mappings
+:imap <C-K> <Plug>snipMateNextOrTrigger
+:smap <C-K> <Plug>snipMateNextOrTrigger
