@@ -30,7 +30,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'mattr555/vim-instacode'
 Plug 'xhr/vim-io'
-Plug 'davidhalter/jedi-vim'
+Plug 'davidhalter/jedi-vim', {'for': 'python'}
 Plug 'vim-scripts/vim-jsbeautify'
 Plug 'vim-scripts/JavaScript-Indent'
 Plug 'leshill/vim-json'
@@ -40,7 +40,7 @@ Plug 'xolox/vim-misc'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'juvenn/mustache.vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'ivalkeen/nerdtree-execute'
 Plug 'zah/nim.vim', {'for': 'nim'}
 Plug 'xolox/vim-notes'
