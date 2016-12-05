@@ -95,4 +95,5 @@ Plug 'keith/swift.vim'
 Plug 'andreasvc/vim-256noir'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
+Plug 'kana/vim-smartword'
 call plug#end()
