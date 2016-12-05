@@ -103,5 +103,5 @@ nnoremap [l :lprev<cr>
 nnoremap <Leader>S <Esc>:syntax sync fromstart<CR>
 
 " snipmate mappings
-:imap <C-K> <Plug>snipMateNextOrTrigger
-:smap <C-K> <Plug>snipMateNextOrTrigger
+imap <C-K> <Plug>snipMateNextOrTrigger
+smap <C-K> <Plug>snipMateNextOrTrigger
