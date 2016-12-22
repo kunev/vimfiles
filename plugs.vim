@@ -96,4 +96,5 @@ Plug 'andreasvc/vim-256noir'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 Plug 'kana/vim-smartword'
+Plug 'neomake/neomake'
 call plug#end()

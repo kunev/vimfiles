@@ -33,3 +33,4 @@ endif
 highlight Normal ctermbg=NONE guibg=NONE
 highlight NonText ctermbg=NONE guibg=NONE
 au ColorScheme * hi Normal ctermbg=NONE guibg=NONE
+autocmd! BufWritePost * Neomake
