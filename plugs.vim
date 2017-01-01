@@ -98,4 +98,5 @@ Plug 'honza/vim-snippets'
 Plug 'kana/vim-smartword'
 Plug 'neomake/neomake'
 Plug 'yuttie/comfortable-motion.vim'
+Plug 'brooth/far.vim'
 call plug#end()
