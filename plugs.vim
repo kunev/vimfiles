@@ -97,4 +97,5 @@ Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 Plug 'kana/vim-smartword'
 Plug 'neomake/neomake'
+Plug 'yuttie/comfortable-motion.vim'
 call plug#end()
