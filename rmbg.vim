@@ -17,5 +17,5 @@ let groups_to_fix = [
 \]
 
 for group in groups_to_fix
-    exec "hi " . group . " ctermbg=none"
+    exec "hi " . group . " ctermbg=NONE guibg=NONE"
 endfor

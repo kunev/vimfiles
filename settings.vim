@@ -29,6 +29,8 @@ set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 set backup
 set backupdir=~/.vim/backups
+set termguicolors
+set t_ut=
 
 let s:path = expand('<sfile>:p:h')
 let &directory = s:path . '/swap'
