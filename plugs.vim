@@ -105,4 +105,5 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'dpelle/vim-LanguageTool'
 Plug 'rhysd/vim-grammarous'
+Plug 'python-rope/ropevim'
 call plug#end()
