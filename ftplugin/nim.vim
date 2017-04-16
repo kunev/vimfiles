@@ -9,3 +9,7 @@ endf
 " Jump to tag
 nn <C-]> :call JumpToDef()<cr>
 ino <C-]> <esc>:call JumpToDef()<cr>i
+
+set ts=2
+set sts=2
+set sw=2
