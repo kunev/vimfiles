@@ -106,4 +106,5 @@ Plug 'junegunn/limelight.vim'
 Plug 'dpelle/vim-LanguageTool'
 Plug 'rhysd/vim-grammarous'
 Plug 'python-rope/ropevim'
+Plug 'Shougo/neocomplete'
 call plug#end()
