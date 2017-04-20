@@ -107,4 +107,5 @@ Plug 'dpelle/vim-LanguageTool'
 Plug 'rhysd/vim-grammarous'
 Plug 'python-rope/ropevim'
 Plug 'Shougo/neocomplete'
+Plug 'AndrewRadev/switch.vim'
 call plug#end()
