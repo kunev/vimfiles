@@ -50,7 +50,7 @@ Plug 'hynek/vim-python-pep8-indent'
 Plug 'vim-perl/vim-perl', {'for': 'perl'}
 Plug 'hdima/python-syntax', {'for': 'python'}
 Plug 'peterhoeg/vim-qml'
-Plug 'boris-petrov/rainbow_parentheses.vim'
+Plug 'boris-petrov/rainbow'
 Plug 'derekwyatt/vim-scala', {'for': 'scala'}
 Plug 'AndrewRadev/sideways.vim'
 Plug 'kovisoft/slimv', {'for': ['clojure', 'scheme', 'lisp']}
@@ -105,7 +105,8 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'dpelle/vim-LanguageTool'
 Plug 'rhysd/vim-grammarous'
-Plug 'python-rope/ropevim'
+"Plug 'python-rope/ropevim'
 Plug 'Shougo/neocomplete'
 Plug 'AndrewRadev/switch.vim'
+Plug 'kudabux/vim-srcery-drk'
 call plug#end()
