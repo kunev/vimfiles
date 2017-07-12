@@ -25,7 +25,7 @@ if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
     else
         set background=dark
     endif
-    color badwolf
+    color srcery-drk
 else
     set t_Co=8
 endif
