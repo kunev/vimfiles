@@ -29,6 +29,7 @@ set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 set backup
 set backupdir=~/.vim/backups
+set backspace=indent,eol,start
 set termguicolors
 set t_ut=
 
