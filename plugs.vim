@@ -109,4 +109,5 @@ Plug 'rhysd/vim-grammarous'
 Plug 'Shougo/neocomplete'
 Plug 'AndrewRadev/switch.vim'
 Plug 'kudabux/vim-srcery-drk'
+Plug 'gkjgh/cobalt'
 call plug#end()
