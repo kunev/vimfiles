@@ -61,10 +61,9 @@ Plug 'Matt-Deacalion/vim-systemd-syntax', {'for': 'systemd'}
 Plug 'majutsushi/tagbar'
 Plug 'tomtom/tcomment_vim'
 Plug 'tomtom/tlib_vim'
-Plug 'fatih/vim-go', {'for': 'go'}
+Plug 'fatih/vim-go', {'for': 'go', 'tag': 'v1.14'}
 Plug 'hylang/vim-hy'
 Plug 'gotcha/vimpdb', {'for': 'python'}
-Plug 'Shougo/vimproc.vim'
 Plug 'slim-template/vim-slim'
 Plug 'tmux-plugins/vim-tmux'
 Plug 'tmux-plugins/vim-tmux-focus-events'
@@ -105,9 +104,17 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'dpelle/vim-LanguageTool'
 Plug 'rhysd/vim-grammarous'
-"Plug 'python-rope/ropevim'
+Plug 'python-rope/ropevim'
 Plug 'Shougo/neocomplete'
 Plug 'AndrewRadev/switch.vim'
 Plug 'kudabux/vim-srcery-drk'
 Plug 'gkjgh/cobalt'
+Plug 'tweekmonster/braceless.vim'
+Plug 'AndrewRadev/deleft.vim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'AndrewRadev/switch.vim'
+Plug 'Blackrush/vim-gocode'
+Plug 'Shougo/vimproc.vim', {'do': 'make'}
+Plug 'Shougo/vimshell.vim'
+Plug 'sebdah/vim-delve', { 'for': 'go' }
 call plug#end()
