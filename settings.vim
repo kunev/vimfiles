@@ -128,3 +128,7 @@ let g:indentLine_enabled = 0
 
 
 let g:LoupeVeryMagic = 0
+
+let g:ale_fixers = {
+\   'python': ['yapf', 'autopep8'],
+\}
