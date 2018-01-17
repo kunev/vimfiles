@@ -117,4 +117,5 @@ Plug 'Blackrush/vim-gocode'
 Plug 'Shougo/vimproc.vim', {'do': 'make'}
 Plug 'Shougo/vimshell.vim'
 Plug 'sebdah/vim-delve', { 'for': 'go' }
+Plug 'danilo-augusto/vim-afterglow'
 call plug#end()

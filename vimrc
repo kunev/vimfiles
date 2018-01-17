@@ -18,7 +18,7 @@ let g:airline_powerline_fonts = 1
 let g:bufferline_fname_mod = ':.'
 
 set background=dark
-color badwolf
+color afterglow
 
 if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
     set t_Co=256
