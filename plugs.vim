@@ -104,7 +104,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'dpelle/vim-LanguageTool'
 Plug 'rhysd/vim-grammarous'
-Plug 'python-rope/ropevim'
+Plug 'python-rope/ropevim', { 'for': 'python' }
 Plug 'Shougo/neocomplete'
 Plug 'AndrewRadev/switch.vim'
 Plug 'kudabux/vim-srcery-drk'
