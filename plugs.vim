@@ -118,4 +118,5 @@ Plug 'Shougo/vimproc.vim', {'do': 'make'}
 Plug 'Shougo/vimshell.vim'
 Plug 'sebdah/vim-delve', { 'for': 'go' }
 Plug 'danilo-augusto/vim-afterglow'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
