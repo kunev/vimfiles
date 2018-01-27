@@ -55,11 +55,13 @@ nnoremap <silent> <leader>? :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
 cmap w!! w !sudo tee >/dev/null %
 
 "Start gitv with
-nnoremap <leader>g :Gitv<cr>
+nnoremap <leader>gv :Gitv<cr>
 
 "Mappings for fugitive
 nnoremap <leader>gb :Gblame<cr>
-nnoremap <leader>gs :Gsplit <cword><cr>
+nnoremap <leader>gd :Gdiff <cr>
+nnoremap <leader>gd :Gdiff <cr>
+nnoremap <leader>dq :diffoff <cr>:q<cr>:e<cr>
 
 "Navigate buffers
 nnoremap <leader>j :bnext<cr>
