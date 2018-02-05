@@ -23,7 +23,8 @@ au FileType go nmap <Leader>i <Plug>(go-info)
 au FileType go nmap <Leader>I :exe "GoImport ". expand('<cword>') <cr>
 au FileType go nmap <Leader>a <Plug>(go-alternate-edit)
 au FileType go nmap <Leader>A <Plug>(go-alternate-vertical)
-au FileType go nmap gd        <Plug>(go-def-tab)
+au FileType go nmap <Leader>d <Plug>(go-def)
+au FileType go nmap <Leader>D <Plug>(go-def-tab)
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
