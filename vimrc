@@ -19,6 +19,7 @@ let g:bufferline_fname_mod = ':.'
 
 set background=dark
 color afterglow
+hi SpellBad guibg=red guifg=black
 
 if($TERM =~ '^xterm' || $TERM =~ '^screen' || $TERM == 'fbterm')
     set t_Co=256
