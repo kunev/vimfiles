@@ -23,6 +23,8 @@ au FileType go nmap <Leader>i <Plug>(go-info)
 au FileType go nmap <Leader>I :exe "GoImport ". expand('<cword>') <cr>
 au FileType go nmap <Leader>a <Plug>(go-alternate-edit)
 au FileType go nmap <Leader>A <Plug>(go-alternate-vertical)
+au FileType go nmap <Leader>c <Plug>(go-callers)
+au FileType go nmap <Leader>C <Plug>(go-callees)
 au FileType go nmap <Leader>d <Plug>(go-def)
 au FileType go nmap <Leader>D <Plug>(go-def-tab)
 
