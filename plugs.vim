@@ -122,4 +122,5 @@ Plug 'mxw/vim-jsx'
 Plug 'mtth/scratch.vim'
 Plug 'AndrewRadev/dsf.vim'
 Plug 'plytophogy/vim-virtualenv'
+Plug 'mxw/vim-jsx'
 call plug#end()
