@@ -34,7 +34,7 @@ Plug 'davidhalter/jedi-vim', {'for': 'python'}
 Plug 'vim-scripts/vim-jsbeautify'
 Plug 'vim-scripts/JavaScript-Indent'
 Plug 'leshill/vim-json'
-Plug 'jelera/vim-javascript-syntax', {'for': 'javascript'}
+Plug 'pangloss/vim-javascript', {'for': 'javascript'}
 Plug 'embear/vim-localvimrc'
 Plug 'xolox/vim-misc'
 Plug 'terryma/vim-multiple-cursors'
@@ -61,7 +61,7 @@ Plug 'Matt-Deacalion/vim-systemd-syntax', {'for': 'systemd'}
 Plug 'majutsushi/tagbar'
 Plug 'tomtom/tcomment_vim'
 Plug 'tomtom/tlib_vim'
-Plug 'fatih/vim-go', {'for': 'go', 'tag': 'v1.14'}
+Plug 'fatih/vim-go', {'for': 'go'}
 Plug 'hylang/vim-hy'
 Plug 'gotcha/vimpdb', {'for': 'python'}
 Plug 'slim-template/vim-slim'
@@ -113,10 +113,16 @@ Plug 'tweekmonster/braceless.vim'
 Plug 'AndrewRadev/deleft.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'AndrewRadev/switch.vim'
-Plug 'Blackrush/vim-gocode'
 Plug 'Shougo/vimproc.vim', {'do': 'make'}
 Plug 'Shougo/vimshell.vim'
 Plug 'sebdah/vim-delve', { 'for': 'go' }
 Plug 'danilo-augusto/vim-afterglow'
 Plug 'ryanoasis/vim-devicons'
+Plug 'AoLab/vim-avro'
+Plug 'davidzchen/avro-vim'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'sebdah/vim-delve'
+Plug 'mxw/vim-jsx'
+Plug 'mtth/scratch.vim'
+Plug 'AndrewRadev/dsf.vim'
 call plug#end()
