@@ -18,7 +18,7 @@ Plug 'chrisbra/csv.vim', {'for': 'csv'}
 Plug 'vim-scripts/dbext.vim'
 Plug 'szw/vim-dict'
 Plug 'Lokaltog/vim-easymotion'
-Plug 'mattn/emmet-vim', {'for': ['html', 'xml']}
+Plug 'mattn/emmet-vim', {'for': ['html', 'xml', 'htmldjango']}
 Plug 'tpope/vim-fireplace', {'fot': 'clojure'}
 Plug 'tpope/vim-fugitive'
 Plug 'gregsexton/gitv'
@@ -123,4 +123,6 @@ Plug 'mtth/scratch.vim'
 Plug 'AndrewRadev/dsf.vim'
 Plug 'plytophogy/vim-virtualenv'
 Plug 'mxw/vim-jsx'
+Plug 'epilande/vim-es2015-snippets'
+Plug 'ap/vim-css-color', { 'for': ['css', 'sass'] }
 call plug#end()
