@@ -143,3 +143,5 @@ let g:gitgutter_sign_modified_removed = '--'
 let g:UltiSnipsExpandTrigger="<c-k>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+let g:notes_directories=['~/Documents/notes']
