@@ -27,6 +27,12 @@ au FileType go nmap <Leader>c <Plug>(go-callers)
 au FileType go nmap <Leader>C <Plug>(go-callees)
 au FileType go nmap <Leader>d <Plug>(go-def)
 au FileType go nmap <Leader>D <Plug>(go-def-tab)
+au FileType go nmap <Leader>db :GoDebugBreakpoint<cr>
+au FileType go nmap <Leader>ds :GoDebugStart<cr>
+au FileType go nmap <Leader>dt :GoDebugStop<cr>
+au FileType go nmap <Leader>dc :GoDebugContinue<cr>
+au FileType go nmap <Leader>dn :GoDebugNext<cr>
+au FileType go nmap <Leader>dp :GoDebugPrint 
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
