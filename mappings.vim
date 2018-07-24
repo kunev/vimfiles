@@ -27,7 +27,7 @@ nnoremap <leader>tt :TagbarToggle<cr>
 nnoremap <c-h> :nohlsearch<cr>
 
 "Open mapings file in a split for quick edits
-nnoremap <leader>em :vsp ~/.vim/mappings.vim<cr>
+nnoremap <leader>om :vsp ~/.vim/mappings.vim<cr>
 
 "Source vmirc
 nnoremap sv :so $MYVIMRC<cr>
