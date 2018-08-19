@@ -32,7 +32,6 @@ Plug 'mattr555/vim-instacode'
 Plug 'xhr/vim-io'
 Plug 'davidhalter/jedi-vim', {'for': 'python'}
 Plug 'vim-scripts/vim-jsbeautify'
-Plug 'vim-scripts/JavaScript-Indent'
 Plug 'leshill/vim-json'
 Plug 'pangloss/vim-javascript', {'for': 'javascript'}
 Plug 'embear/vim-localvimrc'
