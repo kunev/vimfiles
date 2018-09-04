@@ -34,6 +34,8 @@ au FileType go nmap <Leader>dt :GoDebugTest<cr>
 au FileType go nmap <Leader>dc :GoDebugContinue<cr>
 au FileType go nmap <Leader>dn :GoDebugNext<cr>
 au FileType go nmap <Leader>dp :GoDebugPrint 
+au FileType go nmap <Leader>gc :GoCoverageToggle<cr>
+au FileType go nmap <Leader>gt :GoTestFunc<cr>
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
