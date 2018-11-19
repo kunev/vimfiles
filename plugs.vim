@@ -120,7 +120,8 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'mxw/vim-jsx'
 Plug 'AndrewRadev/dsf.vim'
 Plug 'plytophogy/vim-virtualenv'
-Plug 'mxw/vim-jsx'
-Plug 'epilande/vim-es2015-snippets'
+Plug 'epilande/vim-es2015-snippets', {'for': 'javascript'}
 Plug 'ap/vim-css-color', { 'for': ['css', 'sass'] }
+Plug 'mhinz/vim-startify'
+Plug 'mgedmin/python-imports.vim', {'for': 'python'}
 call plug#end()
