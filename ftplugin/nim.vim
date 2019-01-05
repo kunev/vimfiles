@@ -10,7 +10,7 @@ endf
 nn <C-]> :call JumpToDef()<cr>
 ino <C-]> <esc>:call JumpToDef()<cr>i
 
-set ts=2
-set sts=2
-set sw=2
-set tw=80
+setlocal ts=2
+setlocal sts=2
+setlocal sw=2
+setlocal tw=80

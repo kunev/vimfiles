@@ -1,5 +1,5 @@
-set nocursorline
-set tw=80
-set fo+=t
-set spell
-set spelllang=en,bg
+setlocal nocursorline
+setlocal tw=80
+setlocal fo+=t
+setlocal spell
+setlocal spelllang=en,bg

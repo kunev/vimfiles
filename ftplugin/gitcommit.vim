@@ -1,2 +1,2 @@
 setlocal spell
-set nocursorline
+setlocal nocursorline

@@ -1,3 +1,3 @@
-set spell
-set textwidth=80
-set nocursorline
+setlocal spell
+setlocal textwidth=80
+setlocal nocursorline

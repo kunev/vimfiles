@@ -1,6 +1,6 @@
-set spell
-set spelllang=bg,en
-set nocursorline
+setlocal spell
+setlocal spelllang=bg,en
+setlocal nocursorline
 
 nnoremap ч `
 nnoremap я q

@@ -1,10 +1,10 @@
-set ts=4
-set expandtab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=8
-set list
-set colorcolumn=80
+setlocal ts=4
+setlocal expandtab
+setlocal shiftwidth=4
+setlocal softtabstop=4
+setlocal tabstop=8
+setlocal list
+setlocal colorcolumn=80
 
 setlocal listchars=tab:╞═,trail:•,extends:❯,precedes:❮
 
