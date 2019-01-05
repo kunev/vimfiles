@@ -6,6 +6,8 @@ set tabstop=8
 set list
 set colorcolumn=80
 
+setlocal listchars=tab:╞═,trail:•,extends:❯,precedes:❮
+
 filetype indent on
 
 let python_highlight_all = 1

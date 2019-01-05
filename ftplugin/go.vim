@@ -3,7 +3,7 @@ setlocal noexpandtab
 setlocal tabstop=4
 setlocal shiftwidth=4
 setlocal makeprg=go\ run\ %
-setlocal listchars=tab:\ \ ,trail:.,extends:#,nbsp:.
+setlocal listchars=tab:\ \ ,trail:•,extends:❯,precedes:❮,nbsp:.
 setlocal tags+=~/dotfiles/tags/go.tags
 
 " Disable mapping gd to GoDef by default.
