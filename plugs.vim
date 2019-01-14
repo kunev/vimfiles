@@ -123,4 +123,7 @@ Plug 'epilande/vim-es2015-snippets', {'for': 'javascript'}
 Plug 'ap/vim-css-color', { 'for': ['css', 'sass'] }
 Plug 'mhinz/vim-startify'
 Plug 'mgedmin/python-imports.vim', {'for': 'python'}
+Plug 'vimwiki/vimwiki', {'branch': 'dev'}
+Plug 'blindFS/vim-taskwarrior'
+Plug 'tbabej/taskwiki'
 call plug#end()
