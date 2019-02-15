@@ -29,7 +29,6 @@ Plug 'othree/html5.vim', {'for': 'html'}
 Plug 'Yggdroot/indentLine'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'mattr555/vim-instacode'
-Plug 'xhr/vim-io'
 Plug 'davidhalter/jedi-vim', {'for': 'python'}
 Plug 'vim-scripts/vim-jsbeautify'
 Plug 'leshill/vim-json'
@@ -78,7 +77,6 @@ Plug 'solarnz/thrift.vim'
 Plug 'junegunn/vim-peekaboo'
 Plug 'freeo/vim-kalisi'
 Plug 'itchyny/lightline.vim'
-Plug 'garyburd/go-explorer'
 Plug 'vim-scripts/SyntaxRange'
 Plug 'airblade/vim-rooter'
 Plug 'airblade/vim-gitgutter'
@@ -125,5 +123,5 @@ Plug 'mhinz/vim-startify'
 Plug 'mgedmin/python-imports.vim', {'for': 'python'}
 Plug 'vimwiki/vimwiki', {'branch': 'dev'}
 Plug 'blindFS/vim-taskwarrior'
-Plug 'tbabej/taskwiki'
+Plug 'buoto/gotests-vim', {'for': 'go'}
 call plug#end()
