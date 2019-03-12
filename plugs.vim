@@ -124,4 +124,6 @@ Plug 'mgedmin/python-imports.vim', {'for': 'python'}
 Plug 'vimwiki/vimwiki', {'branch': 'dev'}
 Plug 'blindFS/vim-taskwarrior'
 Plug 'buoto/gotests-vim', {'for': 'go'}
+Plug 'blindFS/vim-taskwarrior'
+Plug 'tbabej/taskwiki'
 call plug#end()
