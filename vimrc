@@ -38,3 +38,10 @@ else
     highlight NonText ctermbg=NONE guibg=NONE
     au ColorScheme * hi Normal ctermbg=NONE guibg=NONE
 endif
+
+let g:vimwiki_list = [{
+          \ 'syntax': 'default',
+          \ 'path': '$HOME/vimwiki',
+		  \ 'template_path': s:path . '/vimwiki_template',
+		  \ 'template_default': 'default',
+		  \ 'template_ext': '.html'}]
