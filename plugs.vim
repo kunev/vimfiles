@@ -31,7 +31,6 @@ Plug 'michaeljsmith/vim-indent-object'
 Plug 'mattr555/vim-instacode'
 Plug 'davidhalter/jedi-vim', {'for': 'python'}
 Plug 'vim-scripts/vim-jsbeautify'
-Plug 'leshill/vim-json'
 Plug 'pangloss/vim-javascript', {'for': 'javascript'}
 Plug 'embear/vim-localvimrc'
 Plug 'xolox/vim-misc'
@@ -48,7 +47,6 @@ Plug 'hynek/vim-python-pep8-indent'
 Plug 'vim-perl/vim-perl', {'for': 'perl'}
 Plug 'hdima/python-syntax', {'for': 'python'}
 Plug 'peterhoeg/vim-qml'
-Plug 'boris-petrov/rainbow'
 Plug 'derekwyatt/vim-scala', {'for': 'scala'}
 Plug 'AndrewRadev/sideways.vim'
 Plug 'kovisoft/slimv', {'for': ['clojure', 'scheme', 'lisp']}
@@ -101,7 +99,6 @@ Plug 'dpelle/vim-LanguageTool'
 Plug 'rhysd/vim-grammarous'
 Plug 'Shougo/neocomplete'
 Plug 'AndrewRadev/switch.vim'
-Plug 'kudabux/vim-srcery-drk'
 Plug 'gkjgh/cobalt'
 Plug 'tweekmonster/braceless.vim'
 Plug 'AndrewRadev/deleft.vim'
@@ -126,4 +123,6 @@ Plug 'blindFS/vim-taskwarrior'
 Plug 'buoto/gotests-vim', {'for': 'go'}
 Plug 'blindFS/vim-taskwarrior'
 Plug 'tbabej/taskwiki'
+Plug 'mgedmin/coverage-highlight.vim', {'for': 'python'}
+Plug 'elzr/vim-json', {'for': 'json'}
 call plug#end()
