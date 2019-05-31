@@ -122,4 +122,7 @@ noremap ,ge  ge
 
 vnoremap p "_dP
 
+command Tterm tab term
+command Vterm vert term
+
 nnoremap <leader>d <c-]>
