@@ -121,3 +121,5 @@ noremap ,e  e
 noremap ,ge  ge
 
 vnoremap p "_dP
+
+nnoremap <leader>d <c-]>

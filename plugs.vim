@@ -29,7 +29,6 @@ Plug 'othree/html5.vim', {'for': 'html'}
 Plug 'Yggdroot/indentLine'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'mattr555/vim-instacode'
-Plug 'davidhalter/jedi-vim', {'for': 'python'}
 Plug 'vim-scripts/vim-jsbeautify'
 Plug 'pangloss/vim-javascript', {'for': 'javascript'}
 Plug 'embear/vim-localvimrc'
@@ -116,7 +115,6 @@ Plug 'AndrewRadev/dsf.vim'
 Plug 'plytophogy/vim-virtualenv'
 Plug 'epilande/vim-es2015-snippets', {'for': 'javascript'}
 Plug 'ap/vim-css-color', { 'for': ['css', 'sass'] }
-Plug 'mhinz/vim-startify'
 Plug 'mgedmin/python-imports.vim', {'for': 'python'}
 Plug 'vimwiki/vimwiki', {'branch': 'dev'}
 Plug 'blindFS/vim-taskwarrior'
@@ -125,4 +123,7 @@ Plug 'blindFS/vim-taskwarrior'
 Plug 'tbabej/taskwiki'
 Plug 'mgedmin/coverage-highlight.vim', {'for': 'python'}
 Plug 'elzr/vim-json', {'for': 'json'}
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'ryanolsonx/vim-lsp-python', {'for': 'python'}
 call plug#end()
