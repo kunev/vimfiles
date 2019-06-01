@@ -45,3 +45,4 @@ let g:vimwiki_list = [{
 		  \ 'template_path': s:path . '/vimwiki_template',
 		  \ 'template_default': 'default',
 		  \ 'template_ext': '.html'}]
+let g:taskwiki_use_python2 = 1
