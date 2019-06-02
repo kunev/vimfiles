@@ -126,3 +126,5 @@ command Tterm tab term
 command Vterm vert term
 
 nnoremap <leader>d <c-]>
+
+nnoremap ; :
