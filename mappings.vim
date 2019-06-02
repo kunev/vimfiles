@@ -128,3 +128,16 @@ command Vterm vert term
 nnoremap <leader>d <c-]>
 
 nnoremap ; :
+
+" ,x -> :X
+" For easier typing of custom commands
+nnoremap \      :call <SID>RevSlashMapping(0)<cr>
+xnoremap \ :<c-u>call <SID>RevSlashMapping(1)<cr>
+function! s:RevSlashMapping(visual)
+  echo
+  let c = nr2char(getchar())
+  if a:visual
+    normal! gv
+  endif
+  call feedkeys(':'.toupper(c))
+endfunction
