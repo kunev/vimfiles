@@ -126,4 +126,5 @@ Plug 'elzr/vim-json', {'for': 'json'}
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'ryanolsonx/vim-lsp-python', {'for': 'python'}
+Plug 'supercollider/scvim'
 call plug#end()
